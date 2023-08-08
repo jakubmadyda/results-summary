@@ -2,12 +2,79 @@
     font-family: 'HankenGrotesk';
     font-display: swap;
     font-weight: 100 900;
-    src: url("assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format('truetype');
+    src: url("../../assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format('truetype');
 
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    font: inherit;
+}
+
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: HankenGrotesk, sans-serif;
+    min-height: 100vh;
+    font-size: 18px;
+}
+
+.container {
+
+}
+
+.results {
+
+}
+
+.section-title {
+
+}
+
+.results-score {
+
+}
+
+.message-title {
+
+}
+
+.summary {
+
+}
+
+.scores {
+
+}
+
+.score-card {
+
+    &__red {
+
+    }
+    &__yellow {
+
+    }
+    &__green {
+
+    }
+    &__blue {
+
+    }
+}
+
+.score-card-title {
+
+}
+
+.summary-score {
+
+}
+
+.button {
+
 }
