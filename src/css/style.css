@@ -1,3 +1,13 @@
-
+@font-face {
+  font-family: "HankenGrotesk";
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format("truetype");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 /*# sourceMappingURL=style.css.map */
